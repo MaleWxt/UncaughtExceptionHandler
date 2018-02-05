@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@null</item>
+        <!--消除windowBackground对Activity的绘制速度的影响-->
+        <item name="android:windowTranslucentStatus">false</item>
+        <!--页面拉伸到状态栏透明状态栏下面-->
+        <item name="android:windowFullscreen">false</item>
+        <!--全屏-->
+        <item name="android:statusBarColor">@android:color/holo_red_light</item>
+        <!--设置状态栏背景颜色配合windowDrawsSystemBarBackgrounds使用-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!--设置状态栏字体为灰色-->
+    </style>
+
+    <style name="Splash" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/yichan</item>
+    </style>
+</resources>
+
+
